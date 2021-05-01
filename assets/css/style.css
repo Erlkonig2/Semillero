@@ -24,8 +24,26 @@ h1 {
   font-size: 1.6rem;
 }
 
+h2 {
+  margin-block-start: 8px;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:not(:first-of-type) {
+  border-top: 2px solid black;
+  padding-block-start: 5px;
+}
+
+svg {
+  object-fit: cover;
 }
 
 article {
@@ -48,8 +66,8 @@ article {
 }
 
 .header--image-container {
-  width: 60px;
-  height: 60px;
+  width: 75px;
+  height: 75px;
   grid-area: picture;
 }
 
@@ -67,16 +85,49 @@ article {
   justify-content: center;
 }
 
+.header--profile-desc>p {
+  margin-block-start: 4px;
+}
+
 .header--profile-cont {
   display: flex;
   grid-area: icons;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.header--profile-cont a>svg {
+.header--profile-cont a {
   width: 30px;
   height: 30px;
+  margin-inline-end: 16px;
   color: black;
+}
+
+article > p {
+  margin-block-start: 8px;
+}
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  min-width: 150px;
+  max-width: 200px;
+  margin: 10px 15px 10px 15px;
+  padding: 4px;
+}
+
+.info-container--icon {
+  width: 60px;
+  height: 60px;
+  margin-block-end: 5px;
 }
 

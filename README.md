@@ -1,2 +1,2 @@
-# Semillero-2021-1
-Semillero "Programación Orientada a Nuevos Dispositivos"
+# Semillero
+Codigos creados a partir del semillero de desarrollo web

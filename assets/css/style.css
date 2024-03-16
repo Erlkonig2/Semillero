@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
-  background-color: #808080;
+  background-color: #0a0a0a;
 }
 
 img {
@@ -54,8 +54,8 @@ article {
   max-width: 600px;
   border-radius: 50px;
   border-radius: 50px;
-  background: linear-gradient(315deg, #898989, #737373);
-  box-shadow: -20px -20px 60px #6d6d6d, 20px 20px 60px #939393;
+  background: linear-gradient(315deg, #dedfde9c, #dedfde9c);
+  /* box-shadow: -10px -10px 25px #b1b0b0, 10px 10px 25px #b1b0b0; */
 }
 
 .header {
@@ -135,8 +135,8 @@ article > p {
   padding: 4px;
   margin-block-start: 15px;
   border-radius: 50px;
-  background: linear-gradient(315deg, #737373, #898989);
-  box-shadow: -20px -20px 60px #6d6d6d, 20px 20px 60px #939393;
+  background: linear-gradient(315deg, #b3b2b2, #b3b2b2);
+  /* box-shadow: -15px -15px 30px #edeeee, 15px 15px 30px #edeeee; */
 }
 
 .info-container--icon {
